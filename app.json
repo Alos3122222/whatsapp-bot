@@ -68,6 +68,16 @@
             "required": false,
             "value": "null"
         },
+        "WORK_TYPE": {
+            "description": "Bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "public"
+        },
+        "BOT_NAME": {
+            "description": "Your bot's name. This is very important!",
+            "required": true,
+            "value": "Bot name"
+        },
         "LANGUAGE": {
             "description": "Enter bot language, example EN for English, ID for Bahasa Indonesia, TR for Turkish",
             "value": "EN"
